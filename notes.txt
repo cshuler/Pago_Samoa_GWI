@@ -1,0 +1,13 @@
+model boundaries square at 
+X	Y
+530200	8425825
+537700	8425825
+537700	8418325
+530200	8418325
+
+with length of 7500 m on both sides
+
+
+
+next steps 
+- try and just follow existing github model notebook 

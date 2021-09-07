@@ -1,0 +1,9 @@
+40 -1.0e+030 0
+0 
+0 
+-1.0 
+0 
+0 
+HDF5 1.0 -1 "modelface_GMS.h5" "Arrays/HK1" 1 0 5625
+HDF5 1.0 -1 "modelface_GMS.h5" "Arrays/HANI1" 1 0 5625
+HDF5 1.0 -1 "modelface_GMS.h5" "Arrays/VK1" 1 0 5625

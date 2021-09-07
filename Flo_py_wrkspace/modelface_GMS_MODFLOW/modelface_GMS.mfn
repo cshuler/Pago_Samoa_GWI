@@ -1,0 +1,17 @@
+# MF2K NAME file
+#
+# MODFLOW 2005
+# Output Files
+LIST            2 "modelface_GMS.out"
+DATA(BINARY)   51 "modelface_GMS.hed"
+DATA(BINARY)   40 "modelface_GMS.ccf"
+#
+# Global Input Files
+DIS            11 "modelface_GMS.dis"
+#
+# Flow Process Input Files
+BAS6           13 "modelface_GMS.ba6"
+LPF            15 "modelface_GMS.lpf"
+OC             14 "modelface_GMS.oc"
+RCH            19 "modelface_GMS.rch"
+PCG            27 "modelface_GMS.pcg"

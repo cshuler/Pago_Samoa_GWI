@@ -1,0 +1,17 @@
+TO create the future recharge scenario
+
+- took net infiltration from SWB from future climate base and future rcp 4.5 scenarios in github
+
+- Divided  4.5 over future base to get the normalized ratio of how much more rechaerge is predicted in each cell because absolute ammounts dont match real recharge (its higher) 
+
+- then multiplied the real base recharge (from 1_Original_run_out on GitHUb) by the anomoly raster to create the new "Normalized" RCP4.5 prediction!
+
+
+- This made no-data turn into -9999 which fucked the whole thing up so manually had to do this: 
+
+SWB_output_recharge = os.path.join("..",  'Data/Raw/GIS/Recharge/Climate_sccenarios/workspace','final_net_infil_4p5 - Copy.asc')    # make a coppy beforehand too...    
+
+with open(SWB_output_recharge) as r:
+    text = r.read().replace("-9999", "0")
+with open(SWB_output_recharge, "w") as w:
+    w.write(text)

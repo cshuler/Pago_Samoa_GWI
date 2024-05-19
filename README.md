@@ -1,5 +1,8 @@
 # The Hidden Consequences of Sea Level Rise: Assessing Vulnerability of Buried Infrastructure to Groundwater Inundation in American Samoa
 
+[![DOI](https://zenodo.org/badge/382972335.svg)](https://zenodo.org/doi/10.5281/zenodo.11217559)
+
+
 Data repository for PagoPago GW modeling for SLR analysis
 
 Published in the Journal of Water and Climate Change, November 2023. Christopher Shuler
